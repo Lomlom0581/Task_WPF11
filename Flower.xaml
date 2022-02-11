@@ -1,0 +1,64 @@
+﻿<Window x:Class="Task_WPF11.FlowerWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Task_WPF11"
+        mc:Ignorable="d"
+        Title="Цветок" Height="450" Width="560  ">
+    <Grid RenderTransformOrigin="0.5,0.5" Background="#FFFBF7F7">
+        <Ellipse Fill="#FF38F1F1" Height="18.449" Margin="248.573,109.336,0,0" Stroke="Black" VerticalAlignment="Top" RenderTransformOrigin="1.065,0.25" HorizontalAlignment="Left" Width="107.351"/>
+        <Ellipse Fill="#FF38F1F1" HorizontalAlignment="Left" Height="18.449" Margin="116.982,109.336,0,0" Stroke="Black" VerticalAlignment="Top" Width="107.351"/>
+        <Ellipse Fill="#FF38F1F1" Height="18.45" Margin="193.167,0,0,174.611" Stroke="Black" VerticalAlignment="Bottom" RenderTransformOrigin="1.065,0.25" HorizontalAlignment="Left" Width="107.351">
+            <Ellipse.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform ScaleY="1.001" ScaleX="0.999"/>
+                    <SkewTransform AngleX="-0.053"/>
+                    <RotateTransform Angle="59.973"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Ellipse.RenderTransform>
+        </Ellipse>
+        <Ellipse Fill="#FF38F1F1" HorizontalAlignment="Left" Height="18.449" Margin="123.908,106.021,0,0" Stroke="Black" VerticalAlignment="Top" Width="107.351" RenderTransformOrigin="1.065,0.25">
+            <Ellipse.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform ScaleY="1.001" ScaleX="0.999"/>
+                    <SkewTransform AngleX="-0.053"/>
+                    <RotateTransform Angle="59.973"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Ellipse.RenderTransform>
+        </Ellipse>
+        <Ellipse Fill="#FF38F1F1" HorizontalAlignment="Left" Height="18.45" Margin="116.983,116.255,0,0" Stroke="Black" VerticalAlignment="Top" Width="107.35" RenderTransformOrigin="1.065,0.25">
+            <Ellipse.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform ScaleY="1.001" ScaleX="0.999"/>
+                    <SkewTransform AngleX="0.053"/>
+                    <RotateTransform Angle="-59.973"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Ellipse.RenderTransform>
+        </Ellipse>
+        <Ellipse Fill="#FF38F1F1" Height="18.449" Margin="188.55,-0.205,0,0" Stroke="Black" VerticalAlignment="Top" RenderTransformOrigin="1.065,0.25" HorizontalAlignment="Left" Width="107.35">
+            <Ellipse.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform ScaleY="1.001" ScaleX="0.999"/>
+                    <SkewTransform AngleX="0.053"/>
+                    <RotateTransform Angle="-59.973"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Ellipse.RenderTransform>
+        </Ellipse>
+        <Ellipse Margin="203.411,87.428,0,0" Stroke="Black" RenderTransformOrigin="0.792,1.44" HorizontalAlignment="Left" Width="69.403" Height="70.481" VerticalAlignment="Top">
+            <Ellipse.Fill>
+                <RadialGradientBrush>
+                    <GradientStop Color="#FFE8E8F2"/>
+                    <GradientStop Color="#FFF9F938" Offset="1"/>
+                </RadialGradientBrush>
+            </Ellipse.Fill>
+        </Ellipse>
+        <Path Data="M220,150 C235.72543,212.01904 251.7255,217.57647 281.82231,264.87146 308.62749,306.99388 304.50662,339.03296 304.50662,391.90359" HorizontalAlignment="Left" Margin="240,150,0,25.686" Stretch="Fill" Stroke="Green" Width="67.975" StrokeThickness="10" />
+        <Path Data="M200.15879,704.94707" HorizontalAlignment="Left" Height="1" Margin="200.159,0,0,-286.947" Stretch="Fill" Stroke="Black" VerticalAlignment="Bottom" Width="1"/>
+
+    </Grid>
+</Window>
